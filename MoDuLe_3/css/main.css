@@ -1,0 +1,48 @@
+
+
+.main{
+    font-family: 'Playfair Display' , serif;
+    color: rgb(98, 98, 98);
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto; 
+    width: 910px;
+
+}
+
+.section{
+    width: 420px;
+    display: inline-block;
+    margin-right: 60px;
+    margin-bottom: 130px;
+    text-align: left;
+}
+.section:nth-child(2n+2) {
+    margin-right: 0;
+    
+}
+.photo{
+    width: 420px;
+    height: 300px;
+    margin-bottom: 32px;
+}
+
+._title_{
+    font-family: 'Ubuntu' , sans-serif;
+    font-size: 14px;
+    color: rgb(100,173,158);
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+}
+
+.title{
+    font-style: 30px;
+    font-weight: 400;
+    margin-bottom: 34px;
+}
+
+.text{
+    font-weight: 400px;
+}
+
