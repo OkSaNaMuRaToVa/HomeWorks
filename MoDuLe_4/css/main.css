@@ -1,0 +1,119 @@
+.main{
+height: 1920px;
+
+}
+.section{
+   margin-left: 220px; 
+   margin-top: 66px;
+   height: 28px;
+   width: 150px;
+   display: inline-block;
+   text-align: left;
+}
+
+   
+
+
+.title{
+   font-family: 'Kaushan Script';
+   text-align: center;
+   color: #333333;
+   margin-top: 92px;
+  
+}
+.text{
+   font-family: 'Montserrat';
+   font-size: 30px;
+   font-weight: 700px;
+   color: #333333;
+   text-transform: uppercase;
+   text-align: center;
+   margin-top: 400;
+   
+}
+
+.text::after {
+   content: '';
+   display: block;
+   width: 61px;
+   height: 4px;
+   background-color: #f38181;
+   margin: 41px auto 0 auto;
+   
+}
+
+.icons{
+   width: 31px;
+   height: 32px;
+  
+}
+.h4{
+   text-transform: uppercase;
+   font-size: 14px;
+   font-weight: 400px;
+   font-family: 'montserrat';
+  
+}
+.paragraf{
+   width: 300px;
+   font-family: 'roboto';
+   font-weight: 400px;
+   
+   
+}
+.section::after {
+   height: 20px;
+   
+}
+
+.sections_6{
+
+}
+
+.section_1{
+
+ }
+
+.section_paragraf{
+   margin-top: 46px;
+   text-align: center;
+   margin-right: 250px;
+   margin-left: 250px;
+   
+}
+
+.section_photo{
+   width: 400px;
+   display: inline-block;
+   margin-top: 91px;
+   margin-left: 66px;
+}
+.section_photo:nth-child(1n) {
+   margin-right: 0;
+}
+
+ .photo{
+  width: 381px;
+  height: 471px;
+  
+ }
+
+ .section_photo_h4{
+  text-align: center;
+  font-family: 'montserrat';
+  font-weight: 400px;
+  font-size: 14px;
+  color: #333333;
+  opacity: 1px;
+  text-transform: uppercase;
+  
+ }
+
+ .section_photo_h5{
+   color: #CCCCCC;
+   font-size: 15px;
+   text-align: center;
+   font-family: 'roboto';
+   font-weight: 300px;
+  opacity: 1px;
+ }
