@@ -1,0 +1,18 @@
+const firstName = prompt ('Please enter desired first name:');
+console.log(firstName);
+
+
+const x = 13;
+const y = 12;
+alert(x + y);
+
+const a = 5
+const b = 3
+console.log(a + b);
+let a1 = 5 + 3'
+console.log(a - b);
+let a2 = 5 - 3;
+console.log(a * b);
+let a3 = 5 * 3;
+console.log(a / b);
+let a4 = 5 / 3;
