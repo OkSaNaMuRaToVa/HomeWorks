@@ -1,26 +1,26 @@
-//const inventory = {
-   // items: ['Knife', 'Gas mask'],
-    //add(itemName) {
-     // console.log(`Adding ${itemName} to inventory`);
+const inventory = {
+    items: ['Knife', 'Gas mask'],
+    add(itemName) {
+      console.log(`Adding ${itemName} to inventory`);
   
-     // this.items(itemName);
-   // },
-   // remove(itemName) {
-    //  console.log(`Removing ${itemName} from inventory`);
+      this.items(itemName);
+    },
+    remove(itemName) {
+      console.log(`Removing ${itemName} from inventory`);
   
-      //this.items = this.items.filter(item => item !== itemName);
-   // },
- // };
+      this.items = this.items.filter(item => item !== itemName);
+    },
+  };
   
- // const invokeInventoryAction = function (itemName, action) {
-  //  console.log(`Invoking action on ${itemName}`);
- //   
- // };
+  const invokeInventoryAction = function (itemName, action) {
+    console.log(`Invoking action on ${itemName}`);
+    
+  };
   
-  //invokeInventoryAction('Medkit', inventory.add);
+  invokeInventoryAction('Medkit', inventory.add);
   
- // console.log(inventory); 
- // invokeInventoryAction('Gas mask', inventory.remove);
+  console.log(inventory); 
+  invokeInventoryAction('Gas mask', inventory.remove);
  
   
- // console.log(inventory.items); 
+  console.log(inventory.items); 
